@@ -3,7 +3,7 @@
 A neon-pink dark theme for Visual Studio Code inspired by my custom Konsole and Firefox themes.  
 Perfect if you love dark backgrounds with bright pink and yellow accents.
 
-![NeonBloom Pink Screenshot](https://raw.githubusercontent.com/yourusername/neonbloom-pink-theme/main/screenshot.png)
+![NeonBloom Pink Screenshot](./neon-bloom-pink-color-scheme.png)
 
 ## Features
 

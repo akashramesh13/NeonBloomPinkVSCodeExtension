@@ -44,20 +44,14 @@
   },
   "tokenColors": [
     {
-      "scope": [
-        "keyword",
-        "storage"
-      ],
+      "scope": ["keyword", "storage"],
       "settings": {
         "foreground": "#ffde66",
         "fontStyle": "bold"
       }
     },
     {
-      "scope": [
-        "string",
-        "constant.numeric"
-      ],
+      "scope": ["string", "constant.numeric"],
       "settings": {
         "foreground": "#ff66d9"
       }
@@ -81,7 +75,26 @@
         "foreground": "#d91f64",
         "fontStyle": "bold"
       }
+    },
+    {
+      "scope": [
+        "meta.jsx.element",
+        "entity.name.tag.js",
+        "entity.name.tag.jsx",
+        "entity.name.type.class.js",
+        "punctuation.definition.tag.begin.js",
+        "punctuation.definition.tag.end.js"
+      ],
+      "settings": {
+        "foreground": "#ff66d9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["meta.jsx.children"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
     }
   ]
 }
-
