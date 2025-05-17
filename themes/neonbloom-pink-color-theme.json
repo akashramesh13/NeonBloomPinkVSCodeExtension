@@ -1,0 +1,87 @@
+{
+  "name": "NeonBloom Pink",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#d91f64",
+    "editorCursor.foreground": "#d91f64",
+    "editor.lineHighlightBackground": "#1a1a1a",
+    "editor.selectionBackground": "#7a1f4a",
+    "editor.selectionHighlightBackground": "#7a1f4a88",
+    "editorWhitespace.foreground": "#333333",
+    "editorIndentGuide.activeBackground1": "#d91f64",
+    "editorIndentGuide.background1": "#3a3a3a",
+    "editorLineNumber.foreground": "#666666",
+    "editorLineNumber.activeForeground": "#ffde66",
+
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#d91f64",
+    "activityBarBadge.background": "#d91f64",
+    "activityBarBadge.foreground": "#000000",
+
+    "sideBar.background": "#0a0a0a",
+    "sideBar.foreground": "#ffffff",
+    "sideBarTitle.foreground": "#ffde66",
+
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.debuggingBackground": "#d91f64",
+    "statusBar.debuggingForeground": "#000000",
+
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#d91f64",
+
+    "button.background": "#d91f64",
+    "button.foreground": "#000000",
+    "button.hoverBackground": "#ff4f9f",
+
+    "terminal.background": "#000000",
+    "terminal.foreground": "#ffffff",
+    "terminal.ansiBrightMagenta": "#ff66d9",
+    "terminal.ansiBrightYellow": "#ffde66",
+    "terminal.ansiBrightGreen": "#d4ff4a",
+    "terminal.ansiBrightCyan": "#66ffe6"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword",
+        "storage"
+      ],
+      "settings": {
+        "foreground": "#ffde66",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#ff66d9"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#777777",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#d91f64",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}
+
