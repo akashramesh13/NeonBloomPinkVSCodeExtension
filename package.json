@@ -1,8 +1,8 @@
 {
-  "name": "neonbloom-pink-theme",
-  "displayName": "NeonBloom Pink",
-  "description": "A neon-pink dark theme inspired by Konsole and Firefox setup",
-  "version": "0.0.2",
+  "name": "neonbloom-red-night",
+  "displayName": "NeonBloom Red Night",
+  "description": "A neon-red dark theme inspired by Konsole and Firefox setup",
+  "version": "0.0.3",
   "publisher": "akashramesh13",
   "repository": {
     "url": "https://github.com/akashramesh13/NeonBloomPinkVSCodeExtension.git"
@@ -16,9 +16,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "NeonBloom Pink",
+        "label": "NeonBloom Red Night",
         "uiTheme": "vs-dark",
-        "path": "./themes/neonbloom-pink-color-theme.json"
+        "path": "./themes/neonbloom-red-night-color-theme.json"
       }
     ]
   }

@@ -1,99 +1,68 @@
 {
-  "name": "NeonBloom Pink",
+  "name": "NeonBloom Red Night",
   "type": "dark",
   "colors": {
     "editor.background": "#000000",
-    "editor.foreground": "#d91f64",
-    "editorCursor.foreground": "#d91f64",
-    "editor.lineHighlightBackground": "#1a1a1a",
-    "editor.selectionBackground": "#7a1f4a",
-    "editor.selectionHighlightBackground": "#7a1f4a88",
-    "editorWhitespace.foreground": "#333333",
-    "editorIndentGuide.activeBackground1": "#d91f64",
-    "editorIndentGuide.background1": "#3a3a3a",
+    "editor.foreground": "#cdd6f4",
     "editorLineNumber.foreground": "#666666",
-    "editorLineNumber.activeForeground": "#ffde66",
+    "editorCursor.foreground": "#ff5555",
+    "editor.selectionBackground": "#ff555577",
+    "editor.selectionHighlightBackground": "#ff555599",
+    "editor.lineHighlightBackground": "#111111",
+    "editorBracketMatch.background": "#000000",
+    "editorBracketMatch.border": "#ff5555",
+    "editorGutter.background": "#000000",
 
     "activityBar.background": "#000000",
-    "activityBar.foreground": "#d91f64",
-    "activityBarBadge.background": "#d91f64",
-    "activityBarBadge.foreground": "#000000",
+    "activityBar.foreground": "#cdd6f4",
+    "activityBarBadge.background": "#ff5555",
+    "activityBarBadge.foreground": "#ffffff",
 
-    "sideBar.background": "#0a0a0a",
-    "sideBar.foreground": "#ffffff",
-    "sideBarTitle.foreground": "#ffde66",
+    "sideBar.background": "#000000",
+    "sideBar.foreground": "#cdd6f4",
 
     "statusBar.background": "#000000",
-    "statusBar.foreground": "#ffffff",
-    "statusBar.debuggingBackground": "#d91f64",
-    "statusBar.debuggingForeground": "#000000",
+    "statusBar.foreground": "#cdd6f4",
+    "statusBar.debuggingBackground": "#ff5555",
 
-    "titleBar.activeBackground": "#000000",
-    "titleBar.activeForeground": "#d91f64",
+    "tab.activeBackground": "#000000",
+    "tab.inactiveBackground": "#111111",
+    "tab.activeForeground": "#cdd6f4",
+    "tab.inactiveForeground": "#888888",
 
-    "button.background": "#d91f64",
-    "button.foreground": "#000000",
-    "button.hoverBackground": "#ff4f9f",
-
-    "terminal.background": "#000000",
-    "terminal.foreground": "#ffffff",
-    "terminal.ansiBrightMagenta": "#ff66d9",
-    "terminal.ansiBrightYellow": "#ffde66",
-    "terminal.ansiBrightGreen": "#d4ff4a",
-    "terminal.ansiBrightCyan": "#66ffe6"
+    "editorIndentGuide.background": "#111111",
+    "editorIndentGuide.activeBackground": "#222222"
   },
   "tokenColors": [
     {
-      "scope": ["keyword", "storage"],
+      "scope": [
+        "keyword",
+        "storage.type",
+        "constant.language",
+        "support.function"
+      ],
       "settings": {
-        "foreground": "#ffde66",
+        "foreground": "#ff5555" // One Dark Pro Night flat red
+      }
+    },
+    {
+      "scope": ["variable", "entity.name.function", "support.constant"],
+      "settings": {
+        "foreground": "#00aaff", // neon blue for functions
         "fontStyle": "bold"
       }
     },
     {
       "scope": ["string", "constant.numeric"],
       "settings": {
-        "foreground": "#ff66d9"
-      }
-    },
-    {
-      "scope": "variable",
-      "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#ddd500" // neon yellow
       }
     },
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#777777",
+        "foreground": "#666666",
         "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": "entity.name.function",
-      "settings": {
-        "foreground": "#d91f64",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": [
-        "meta.jsx.element",
-        "entity.name.tag.js",
-        "entity.name.tag.jsx",
-        "entity.name.type.class.js",
-        "punctuation.definition.tag.begin.js",
-        "punctuation.definition.tag.end.js"
-      ],
-      "settings": {
-        "foreground": "#ff66d9",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": ["meta.jsx.children"],
-      "settings": {
-        "foreground": "#ffffff"
       }
     }
   ]
